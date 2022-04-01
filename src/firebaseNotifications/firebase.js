@@ -1,4 +1,4 @@
-// Firebase Cloud Messaging Configuration File. 
+// Firebase Cloud Messaging Configuration File.
 // Read more at https://firebase.google.com/docs/cloud-messaging/js/client && https://firebase.google.com/docs/cloud-messaging/js/receive
 
 import { initializeApp } from 'firebase/app';
@@ -41,10 +41,8 @@ export const requestForToken = () => {
 // - a message is received while the app has focus
 // - the user clicks on an app notification created by a service worker `messaging.onBackgroundMessage` handler.
 export const onMessageListener = () =>
-  new Promise((resolve) => {    
+  new Promise((resolve) => {
     onMessage(messaging, (payload) => {
       resolve(payload);
     });
   });
-
-  
