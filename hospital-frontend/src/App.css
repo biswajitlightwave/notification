@@ -1,0 +1,117 @@
+button.btn.btn-primary {
+  font-size: 16px;
+  width: 13%;
+  padding: 4px 0 5px 0;
+  background-color: #3f51b5;
+  border: unset;
+}
+h4.header {
+  text-align: center;
+  font-family: system-ui;
+  text-transform: uppercase;
+  margin-top: 1rem;
+  color: #3f51b5;
+}
+label.form-label {
+  margin-bottom: 1px;
+  font-size: 16px;
+  color: #3f51b5;
+  font-family: monospace;
+}
+input.form-control {
+  height: 33px;
+  border-color: #607d8b;
+  font-size: 14px;
+}
+select.form-select {
+  border-color: #607d8b;
+  font-size: 13px;
+}
+.form-control:focus {
+  border-color: #607d8b;
+  box-shadow: #607d8b;
+}
+.form-select:focus {
+  border-color: #607d8b;
+  outline: 0;
+  box-shadow: unset;
+}
+th {
+  font-family: monospace;
+}
+td {
+  font-family: monospace;
+  color: #2d414a;
+  font-size: 15px;
+}
+button.btn.btn-primary.accept.bg-success {
+  /* width: 63%; */
+  padding-right: 64px;
+  padding-left: 8px;
+  margin-right: 10px;
+  padding-top: 0;
+  padding-bottom: 0px;
+}
+button.btn.btn-primary.reject.bg-danger {
+  /* width: 63%; */
+  padding-right: 64px;
+  padding-left: 8px;
+  margin-right: 10px;
+  padding-top: 0;
+  padding-bottom: 0px;
+}
+.homebg {
+  /* The image used */
+  background-image: url('./img/homebg.jpg');
+
+  /* Full height */
+  height: 100vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.adminbg {
+  /* The image used */
+  background-image: url('./img/admin.jpg');
+
+  /* Full height */
+  height: 100vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.homecontent {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+}
+button.btn.btn-primary.admin,
+button.btn.btn-primary.patient {
+  width: 100%;
+  padding-left: 70px;
+  padding-right: 70px;
+  margin-bottom: 2rem;
+  background-color: #0f405f;
+  border-radius: 20px 0 20px 0px;
+}
+.admin_content {
+  position: absolute;
+  right: 0;
+  top: 40%;
+}
+button.btn.btn-primary.patient.adminlink {
+  background-color: #9933ff;
+}
+button.btn.btn-primary.patient.adminlink1 {
+  background-color: #283593;
+}
+button.btn.btn-primary.patient.adminlink2 {
+  background-color: #2e7d32;
+}
+.bg-btn {
+  background-color: #455a64 !important;
+}
